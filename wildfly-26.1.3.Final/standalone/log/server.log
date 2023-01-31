@@ -1,0 +1,1208 @@
+2023-02-01 01:16:40,258 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2023-02-01 01:16:41,771 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-01 01:16:41,792 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-01 01:16:42,074 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2023-02-01 01:16:42,079 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Program Files\Java\jdk-19
+	java.io.tmpdir = C:\Users\muhar\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;jdk-17.0.6_windows-x64_bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\muhar\AppData\Local\Microsoft\WindowsApps;C:\Users\muhar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muhar\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\muhar\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\ProgramData\muhar\GitHubDesktop\bin;C:\Users\muhar\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 19.0.2+7-44
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.2
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.2+7-44
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	jboss.host.name = desktop-u8h340h
+	jboss.modules.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-u8h340h
+	jboss.qualified.host.name = desktop-u8h340h
+	jboss.server.base.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone
+	jboss.server.config.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration
+	jboss.server.data.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data
+	jboss.server.deploy.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data\content
+	jboss.server.log.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log
+	jboss.server.name = desktop-u8h340h
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties
+	module.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	native.encoding = Cp1254
+	org.jboss.boot.log.file = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1254
+	stdout.encoding = Cp1254
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-19\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar -mp C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1254
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = TR
+	user.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\bin
+	user.home = C:\Users\muhar
+	user.language = tr
+	user.name = muhar
+	user.script = 
+	user.timezone = Europe/Istanbul
+	user.variant = 
+2023-02-01 01:16:42,088 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log -Dlogging.configuration=file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties 
+2023-02-01 01:16:44,384 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2023-02-01 01:16:45,504 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-01 01:16:45,533 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.7.Final
+2023-02-01 01:16:45,548 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.7.Final
+2023-02-01 01:16:45,607 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.7.Final
+2023-02-01 01:16:45,614 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-01 01:16:45,655 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-01 01:16:45,664 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-01 01:16:45,667 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-01 01:16:45,694 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-01 01:16:45,703 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-01 01:16:45,728 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-01 01:16:45,732 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-01 01:16:45,749 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-01 01:16:45,803 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-02-01 01:16:45,841 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-02-01 01:16:45,923 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.2.19.Final starting
+2023-02-01 01:16:45,918 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service org.wildfly.extension.metrics.registry: org.jboss.msc.service.StartException in service org.wildfly.extension.metrics.registry: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at org.jboss.as.controller-client@18.1.2.Final//org.jboss.as.controller.client.helpers.MeasurementUnit.valueOf(MeasurementUnit.java:34)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.metadataOf(JmxMetricCollector.java:173)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.loadMetadataFromProperties(JmxMetricCollector.java:151)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.findMetadata(JmxMetricCollector.java:134)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.register(JmxMetricCollector.java:69)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.init(JmxMetricCollector.java:64)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.WildFlyMetricRegistryService.start(WildFlyMetricRegistryService.java:63)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+2023-02-01 01:16:45,958 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-02-01 01:16:46,086 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-01 01:16:46,134 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-01 01:16:46,169 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-02-01 01:16:46,185 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-01 01:16:46,323 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-01 01:16:46,467 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-01 01:16:46,480 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-01 01:16:46,481 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-01 01:16:46,650 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-01 01:16:46,650 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-01 01:16:46,804 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-02-01 01:16:46,808 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-02-01 01:16:46,824 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.25.Final
+2023-02-01 01:16:46,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-02-01 01:16:47,058 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-01 01:16:47,252 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-01 01:16:47,360 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 01:16:47,803 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 01:16:47,867 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\deployments
+2023-02-01 01:16:47,870 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-01 01:16:48,055 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2023-02-01 01:16:48,721 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.extension.metrics.registry" => "Failed to start service
+    Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS"}}
+2023-02-01 01:16:48,752 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 01:16:49,114 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-01 01:16:49,122 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) started (with errors) in 9550ms - Started 296 of 538 services (2 services failed or missing dependencies, 337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-01 01:16:49,134 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-01 01:16:49,138 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-01 01:16:52,139 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 01:16:53,035 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 01:16:53,215 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 6.0.23.Final
+2023-02-01 01:16:53,802 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 01:16:53,806 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@61ee09d7, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 01:16:53,905 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 3.1.9 (Final)
+2023-02-01 01:16:54,375 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 28) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2023-02-01 01:16:54,517 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 1) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 01:16:54,519 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 01:16:54,533 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 28) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-02-01 01:16:55,297 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 01:16:55,299 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 01:16:55,310 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 28) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2023-02-01 01:16:55,313 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 28) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-02-01 01:16:55,467 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 15) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 01:16:55,469 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 01:16:55,476 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 15) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 01:16:55,537 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 66ms
+2023-02-01 01:16:55,541 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 01:16:55,734 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT.war" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 01:16:56,161 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 01:16:56,223 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 01:16:56,223 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@66b548c7, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 01:16:56,336 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 4) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 01:16:56,338 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 01:16:56,566 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 28) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 01:16:56,567 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 01:16:56,569 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 28) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 01:16:56,596 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT.war (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 29ms
+2023-02-01 01:16:56,600 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 01:35:02,272 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2023-02-01 01:35:02,511 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 01:35:02,596 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-02-01 01:35:02,792 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 01:35:02,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2023-02-01 01:35:02,966 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-02-01 01:35:03,015 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-02-01 01:35:03,018 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-02-01 01:35:03,040 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-02-01 01:35:03,147 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2023-02-01 01:35:03,149 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-02-01 01:35:03,168 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.19.Final stopping
+2023-02-01 01:35:03,237 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 28) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-02-01 01:35:03,341 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 574ms
+2023-02-01 01:51:49,921 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2023-02-01 01:51:52,469 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-01 01:51:52,483 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-01 01:51:52,725 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2023-02-01 01:51:52,727 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Program Files\Java\jdk-19
+	java.io.tmpdir = C:\Users\muhar\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;jdk-17.0.6_windows-x64_bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\muhar\AppData\Local\Microsoft\WindowsApps;C:\Users\muhar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muhar\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\muhar\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\ProgramData\muhar\GitHubDesktop\bin;C:\Users\muhar\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 19.0.2+7-44
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.2
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.2+7-44
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	jboss.host.name = desktop-u8h340h
+	jboss.modules.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-u8h340h
+	jboss.qualified.host.name = desktop-u8h340h
+	jboss.server.base.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone
+	jboss.server.config.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration
+	jboss.server.data.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data
+	jboss.server.deploy.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data\content
+	jboss.server.log.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log
+	jboss.server.name = desktop-u8h340h
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties
+	module.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	native.encoding = Cp1254
+	org.jboss.boot.log.file = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1254
+	stdout.encoding = Cp1254
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-19\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar -mp C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1254
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = TR
+	user.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\bin
+	user.home = C:\Users\muhar
+	user.language = tr
+	user.name = muhar
+	user.script = 
+	user.timezone = Europe/Istanbul
+	user.variant = 
+2023-02-01 01:51:52,733 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log -Dlogging.configuration=file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties 
+2023-02-01 01:51:55,170 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2023-02-01 01:51:58,726 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-01 01:51:58,754 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.7.Final
+2023-02-01 01:51:58,766 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.7.Final
+2023-02-01 01:51:58,821 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.7.Final
+2023-02-01 01:51:58,827 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-01 01:51:58,845 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-01 01:51:58,846 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-01 01:51:58,851 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-01 01:51:58,851 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-01 01:51:58,863 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-01 01:51:58,895 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-01 01:51:58,896 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-01 01:51:58,908 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-01 01:51:58,956 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-02-01 01:51:58,960 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-02-01 01:51:59,077 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.2.19.Final starting
+2023-02-01 01:51:59,066 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service org.wildfly.extension.metrics.registry: org.jboss.msc.service.StartException in service org.wildfly.extension.metrics.registry: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at org.jboss.as.controller-client@18.1.2.Final//org.jboss.as.controller.client.helpers.MeasurementUnit.valueOf(MeasurementUnit.java:34)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.metadataOf(JmxMetricCollector.java:173)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.loadMetadataFromProperties(JmxMetricCollector.java:151)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.findMetadata(JmxMetricCollector.java:134)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.register(JmxMetricCollector.java:69)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.init(JmxMetricCollector.java:64)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.WildFlyMetricRegistryService.start(WildFlyMetricRegistryService.java:63)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+2023-02-01 01:51:59,181 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-01 01:51:59,228 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-02-01 01:51:59,285 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-02-01 01:51:59,307 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-01 01:51:59,310 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-01 01:51:59,348 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-01 01:51:59,351 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-01 01:51:59,454 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.25.Final
+2023-02-01 01:51:59,925 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 01:52:07,320 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-01 01:52:07,340 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-01 01:52:07,341 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-01 01:52:07,473 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-02-01 01:52:07,483 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-02-01 01:52:07,529 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-01 01:52:07,533 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-01 01:52:07,553 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-02-01 01:52:08,092 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\deployments
+2023-02-01 01:52:08,125 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-01 01:52:08,201 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 01:52:08,567 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-01 01:52:08,868 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2023-02-01 01:52:09,434 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.extension.metrics.registry" => "Failed to start service
+    Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS"}}
+2023-02-01 01:52:09,500 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 01:52:09,741 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-01 01:52:09,750 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) started (with errors) in 25346ms - Started 296 of 538 services (2 services failed or missing dependencies, 337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-01 01:52:09,758 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-01 01:52:09,760 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-01 01:52:14,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 01:52:15,482 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 01:52:15,648 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 6.0.23.Final
+2023-02-01 01:52:16,396 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 01:52:16,401 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@d13f30c, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 01:52:16,527 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 3.1.9 (Final)
+2023-02-01 01:52:16,938 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 2) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2023-02-01 01:52:17,056 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 2) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-02-01 01:52:17,145 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 1) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 01:52:17,147 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 01:52:17,913 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 01:52:17,914 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 01:52:17,928 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 2) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2023-02-01 01:52:17,932 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 2) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-02-01 01:52:18,172 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 33) Initializing Mojarra 2.3.17.SP01 for context '/PatikaSpringFramework-1.0-SNAPSHOT'
+2023-02-01 01:52:18,863 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 33) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 01:52:18,866 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 01:52:18,875 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 33) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 01:52:18,928 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 62ms
+2023-02-01 01:52:18,934 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 01:52:19,086 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT.war" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 01:52:19,348 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 01:52:19,426 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 01:52:19,427 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@f68448f, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 01:52:19,586 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 3) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 01:52:19,587 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 01:52:19,847 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 38) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 01:52:19,852 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 01:52:19,858 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 33) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 01:52:19,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT.war (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 37ms
+2023-02-01 01:52:19,893 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 01:53:39,573 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2023-02-01 01:53:39,684 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 01:53:39,707 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-02-01 01:53:39,771 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 01:53:39,816 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-02-01 01:53:39,820 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2023-02-01 01:53:39,833 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-02-01 01:53:39,839 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-02-01 01:53:39,857 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-02-01 01:53:39,948 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2023-02-01 01:53:39,950 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-02-01 01:53:39,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.19.Final stopping
+2023-02-01 01:53:40,021 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-02-01 01:53:40,073 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 312ms
+2023-02-01 02:14:02,164 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2023-02-01 02:14:03,241 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-01 02:14:03,261 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-01 02:14:03,529 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2023-02-01 02:14:03,531 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Program Files\Java\jdk-19
+	java.io.tmpdir = C:\Users\muhar\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;jdk-17.0.6_windows-x64_bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\muhar\AppData\Local\Microsoft\WindowsApps;C:\Users\muhar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muhar\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\muhar\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\ProgramData\muhar\GitHubDesktop\bin;C:\Users\muhar\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 19.0.2+7-44
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.2
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.2+7-44
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	jboss.host.name = desktop-u8h340h
+	jboss.modules.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-u8h340h
+	jboss.qualified.host.name = desktop-u8h340h
+	jboss.server.base.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone
+	jboss.server.config.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration
+	jboss.server.data.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data
+	jboss.server.deploy.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data\content
+	jboss.server.log.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log
+	jboss.server.name = desktop-u8h340h
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties
+	module.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	native.encoding = Cp1254
+	org.jboss.boot.log.file = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1254
+	stdout.encoding = Cp1254
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-19\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar -mp C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1254
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = TR
+	user.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\bin
+	user.home = C:\Users\muhar
+	user.language = tr
+	user.name = muhar
+	user.script = 
+	user.timezone = Europe/Istanbul
+	user.variant = 
+2023-02-01 02:14:03,535 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log -Dlogging.configuration=file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties 
+2023-02-01 02:14:05,818 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2023-02-01 02:14:07,448 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-01 02:14:07,483 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.7.Final
+2023-02-01 02:14:07,501 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.7.Final
+2023-02-01 02:14:07,571 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.7.Final
+2023-02-01 02:14:07,587 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-01 02:14:07,600 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-01 02:14:07,604 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-01 02:14:07,610 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-01 02:14:07,616 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-01 02:14:07,647 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-01 02:14:07,661 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-01 02:14:07,691 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-01 02:14:07,713 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-01 02:14:07,910 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-02-01 02:14:07,919 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.19.Final starting
+2023-02-01 02:14:08,003 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-02-01 02:14:08,096 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service org.wildfly.extension.metrics.registry: org.jboss.msc.service.StartException in service org.wildfly.extension.metrics.registry: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at org.jboss.as.controller-client@18.1.2.Final//org.jboss.as.controller.client.helpers.MeasurementUnit.valueOf(MeasurementUnit.java:34)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.metadataOf(JmxMetricCollector.java:173)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.loadMetadataFromProperties(JmxMetricCollector.java:151)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.findMetadata(JmxMetricCollector.java:134)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.register(JmxMetricCollector.java:69)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.init(JmxMetricCollector.java:64)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.WildFlyMetricRegistryService.start(WildFlyMetricRegistryService.java:63)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+2023-02-01 02:14:08,118 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-02-01 02:14:08,232 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-01 02:14:08,237 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-02-01 02:14:08,264 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-01 02:14:08,274 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-01 02:14:08,292 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-01 02:14:08,346 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-01 02:14:08,459 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.25.Final
+2023-02-01 02:14:08,710 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 02:14:08,769 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-01 02:14:08,775 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-01 02:14:08,775 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-01 02:14:08,815 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-01 02:14:08,842 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2023-02-01 02:14:08,845 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-02-01 02:14:08,854 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-01 02:14:08,860 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-02-01 02:14:09,084 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 02:14:09,344 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-01 02:14:09,679 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-01 02:14:09,698 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\deployments
+2023-02-01 02:14:09,894 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2023-02-01 02:14:10,026 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.extension.metrics.registry" => "Failed to start service
+    Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS"}}
+2023-02-01 02:14:10,078 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:14:10,262 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-01 02:14:10,266 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) started (with errors) in 8938ms - Started 296 of 538 services (2 services failed or missing dependencies, 337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-01 02:14:10,270 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-01 02:14:10,270 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-01 02:14:13,961 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 02:14:14,706 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 02:14:14,838 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 6.0.23.Final
+2023-02-01 02:14:15,425 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 02:14:15,428 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@ed2b2fc, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 02:14:15,523 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 3.1.9 (Final)
+2023-02-01 02:14:16,061 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 8) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2023-02-01 02:14:16,185 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 8) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-02-01 02:14:16,890 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 02:14:16,891 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 02:14:16,912 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 8) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2023-02-01 02:14:16,916 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 8) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-02-01 02:14:17,141 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 2) Initializing Mojarra 2.3.17.SP01 for context '/PatikaSpringFramework-1.0-SNAPSHOT'
+2023-02-01 02:14:17,896 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 02:14:17,899 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 02:14:17,904 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 02:14:17,965 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 65ms
+2023-02-01 02:14:17,971 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:14:18,194 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT.war" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 02:14:18,367 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 02:14:18,443 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 02:14:18,443 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@35c470d, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 02:14:18,528 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 1) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 02:14:18,530 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 02:14:18,711 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 02:14:18,712 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 02:14:18,712 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 02:14:18,742 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT.war (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 30ms
+2023-02-01 02:14:18,743 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:15:09,303 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2023-02-01 02:15:09,411 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 02:15:09,436 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-02-01 02:15:09,562 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 02:15:09,562 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2023-02-01 02:15:09,567 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-02-01 02:15:09,589 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-02-01 02:15:09,595 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-02-01 02:15:09,615 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-02-01 02:15:09,704 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2023-02-01 02:15:09,704 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-02-01 02:15:09,714 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.19.Final stopping
+2023-02-01 02:15:09,785 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 23) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-02-01 02:15:09,853 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 359ms
+2023-02-01 02:26:45,764 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2023-02-01 02:26:47,147 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-01 02:26:47,179 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-01 02:26:47,505 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2023-02-01 02:26:47,509 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Program Files\Java\jdk-19
+	java.io.tmpdir = C:\Users\muhar\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;jdk-17.0.6_windows-x64_bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\muhar\AppData\Local\Microsoft\WindowsApps;C:\Users\muhar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muhar\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\muhar\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\ProgramData\muhar\GitHubDesktop\bin;C:\Users\muhar\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 19.0.2+7-44
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.2
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.2+7-44
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	jboss.host.name = desktop-u8h340h
+	jboss.modules.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-u8h340h
+	jboss.qualified.host.name = desktop-u8h340h
+	jboss.server.base.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone
+	jboss.server.config.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration
+	jboss.server.data.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data
+	jboss.server.deploy.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data\content
+	jboss.server.log.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log
+	jboss.server.name = desktop-u8h340h
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties
+	module.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	native.encoding = Cp1254
+	org.jboss.boot.log.file = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1254
+	stdout.encoding = Cp1254
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-19\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar -mp C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1254
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = TR
+	user.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\bin
+	user.home = C:\Users\muhar
+	user.language = tr
+	user.name = muhar
+	user.script = 
+	user.timezone = Europe/Istanbul
+	user.variant = 
+2023-02-01 02:26:47,515 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log -Dlogging.configuration=file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties 
+2023-02-01 02:26:49,437 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2023-02-01 02:26:50,764 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-01 02:26:50,795 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.7.Final
+2023-02-01 02:26:50,810 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.7.Final
+2023-02-01 02:26:50,869 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.7.Final
+2023-02-01 02:26:50,901 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-01 02:26:50,899 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-01 02:26:50,908 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-01 02:26:50,913 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-01 02:26:50,931 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-01 02:26:50,954 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-01 02:26:51,082 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-01 02:26:51,082 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-01 02:26:51,091 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-02-01 02:26:51,099 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-02-01 02:26:51,099 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-01 02:26:51,367 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-02-01 02:26:51,489 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service org.wildfly.extension.metrics.registry: org.jboss.msc.service.StartException in service org.wildfly.extension.metrics.registry: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at org.jboss.as.controller-client@18.1.2.Final//org.jboss.as.controller.client.helpers.MeasurementUnit.valueOf(MeasurementUnit.java:34)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.metadataOf(JmxMetricCollector.java:173)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.loadMetadataFromProperties(JmxMetricCollector.java:151)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.findMetadata(JmxMetricCollector.java:134)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.register(JmxMetricCollector.java:69)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.init(JmxMetricCollector.java:64)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.WildFlyMetricRegistryService.start(WildFlyMetricRegistryService.java:63)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+2023-02-01 02:26:51,979 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-01 02:26:52,075 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.2.19.Final starting
+2023-02-01 02:26:52,113 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-01 02:26:52,118 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-02-01 02:26:52,123 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-01 02:26:52,201 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-01 02:26:52,230 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-01 02:26:52,410 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-01 02:26:52,554 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-01 02:26:52,809 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.25.Final
+2023-02-01 02:26:52,853 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-01 02:26:52,854 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-01 02:26:52,906 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-02-01 02:26:52,910 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-02-01 02:26:52,914 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-02-01 02:26:53,183 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-01 02:26:53,289 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-01 02:26:53,609 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 02:26:53,961 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\deployments
+2023-02-01 02:26:53,965 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 02:26:53,994 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-01 02:26:54,194 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2023-02-01 02:26:54,331 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.extension.metrics.registry" => "Failed to start service
+    Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS"}}
+2023-02-01 02:26:54,444 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:26:54,831 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-01 02:26:54,836 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) started (with errors) in 9738ms - Started 296 of 538 services (2 services failed or missing dependencies, 337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-01 02:26:54,840 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-01 02:26:54,841 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-01 02:26:58,261 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 02:26:58,908 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 02:26:59,034 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 6.0.23.Final
+2023-02-01 02:26:59,656 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 02:26:59,661 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@bbde902, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 02:26:59,813 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 3.1.9 (Final)
+2023-02-01 02:27:00,276 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 23) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2023-02-01 02:27:00,441 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 23) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-02-01 02:27:01,098 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 02:27:01,099 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 02:27:01,107 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 23) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2023-02-01 02:27:01,110 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 23) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-02-01 02:27:01,246 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 27) Initializing Mojarra 2.3.17.SP01 for context '/PatikaSpringFramework-1.0-SNAPSHOT'
+2023-02-01 02:27:01,780 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 27) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 02:27:01,782 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 02:27:01,794 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 27) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 02:27:01,874 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 90ms
+2023-02-01 02:27:01,880 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:27:02,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT.war" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 02:27:02,256 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 02:27:02,409 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 02:27:02,410 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@37b6be72, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 02:27:02,560 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 1) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 02:27:02,561 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 02:27:02,759 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 15) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 02:27:02,760 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 02:27:02,761 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 15) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 02:27:03,028 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT.war (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 267ms
+2023-02-01 02:27:03,030 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:29:34,526 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2023-02-01 02:29:34,757 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 02:29:34,793 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-02-01 02:29:34,948 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 02:29:34,981 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-02-01 02:29:34,979 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2023-02-01 02:29:35,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-02-01 02:29:35,022 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-02-01 02:29:35,017 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-02-01 02:29:35,164 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2023-02-01 02:29:35,166 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-02-01 02:29:35,181 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.2.19.Final stopping
+2023-02-01 02:29:35,249 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-02-01 02:29:35,318 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 403ms
+2023-02-01 02:40:55,437 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2023-02-01 02:40:56,584 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-01 02:40:56,599 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-01 02:40:56,893 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2023-02-01 02:40:56,897 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Program Files\Java\jdk-19
+	java.io.tmpdir = C:\Users\muhar\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;jdk-17.0.6_windows-x64_bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\muhar\AppData\Local\Microsoft\WindowsApps;C:\Users\muhar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muhar\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\muhar\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\ProgramData\muhar\GitHubDesktop\bin;C:\Users\muhar\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 19.0.2+7-44
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.2
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.2+7-44
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	jboss.host.name = desktop-u8h340h
+	jboss.modules.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-u8h340h
+	jboss.qualified.host.name = desktop-u8h340h
+	jboss.server.base.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone
+	jboss.server.config.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration
+	jboss.server.data.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data
+	jboss.server.deploy.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\data\content
+	jboss.server.log.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log
+	jboss.server.name = desktop-u8h340h
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties
+	module.path = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules
+	native.encoding = Cp1254
+	org.jboss.boot.log.file = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1254
+	stdout.encoding = Cp1254
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-19\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\jboss-modules.jar -mp C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1254
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = TR
+	user.dir = C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\bin
+	user.home = C:\Users\muhar
+	user.language = tr
+	user.name = muhar
+	user.script = 
+	user.timezone = Europe/Istanbul
+	user.variant = 
+2023-02-01 02:40:56,906 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\log\server.log -Dlogging.configuration=file:C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration/logging.properties 
+2023-02-01 02:40:59,491 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2023-02-01 02:41:01,220 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-01 02:41:01,259 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.7.Final
+2023-02-01 02:41:01,267 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.7.Final
+2023-02-01 02:41:01,333 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-01 02:41:01,336 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.7.Final
+2023-02-01 02:41:01,356 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-01 02:41:01,364 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-01 02:41:01,368 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-01 02:41:01,371 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-01 02:41:01,372 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-01 02:41:01,407 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-01 02:41:01,422 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-01 02:41:01,424 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-01 02:41:01,486 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-02-01 02:41:01,546 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-02-01 02:41:01,562 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service org.wildfly.extension.metrics.registry: org.jboss.msc.service.StartException in service org.wildfly.extension.metrics.registry: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at org.jboss.as.controller-client@18.1.2.Final//org.jboss.as.controller.client.helpers.MeasurementUnit.valueOf(MeasurementUnit.java:34)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.metadataOf(JmxMetricCollector.java:173)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.loadMetadataFromProperties(JmxMetricCollector.java:151)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.findMetadata(JmxMetricCollector.java:134)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.register(JmxMetricCollector.java:69)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.jmx.JmxMetricCollector.init(JmxMetricCollector.java:64)
+	at org.wildfly.extension.metrics@26.1.3.Final//org.wildfly.extension.metrics.WildFlyMetricRegistryService.start(WildFlyMetricRegistryService.java:63)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+2023-02-01 02:41:01,717 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.2.19.Final starting
+2023-02-01 02:41:01,800 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-01 02:41:01,819 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-02-01 02:41:01,852 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-01 02:41:01,855 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-02-01 02:41:01,916 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-01 02:41:01,971 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-01 02:41:02,073 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY01084: KeyStore C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-01 02:41:02,085 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\server\PatikaSpringFramework\wildfly-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-01 02:41:02,103 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-01 02:41:02,396 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-01 02:41:02,398 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-01 02:41:02,451 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.25.Final
+2023-02-01 02:41:02,514 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-02-01 02:41:02,517 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2023-02-01 02:41:02,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2023-02-01 02:41:02,866 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-01 02:41:02,908 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-01 02:41:03,105 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-01 02:41:03,434 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-01 02:41:03,448 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\server\PatikaSpringFramework\wildfly-26.1.3.Final\standalone\deployments
+2023-02-01 02:41:03,467 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-01 02:41:03,743 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2023-02-01 02:41:03,851 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.extension.metrics.registry" => "Failed to start service
+    Caused by: java.lang.IllegalArgumentException: No enum constant org.jboss.as.controller.client.helpers.MeasurementUnit.MİLLİSECONDS"}}
+2023-02-01 02:41:03,891 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:41:04,058 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-01 02:41:04,067 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 26.1.3.Final (WildFly Core 18.1.2.Final) started (with errors) in 9260ms - Started 296 of 538 services (2 services failed or missing dependencies, 337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-01 02:41:04,159 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-01 02:41:04,162 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-01 02:41:08,278 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 02:41:09,023 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 02:41:09,197 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 6.0.23.Final
+2023-02-01 02:41:10,002 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 02:41:10,008 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@7acde1b2, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 02:41:10,198 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 3.1.9 (Final)
+2023-02-01 02:41:10,582 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 7) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2023-02-01 02:41:10,753 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 7) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-02-01 02:41:11,708 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 02:41:11,710 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-02-01 02:41:11,729 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 7) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2023-02-01 02:41:11,733 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 7) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-02-01 02:41:12,005 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 25) Initializing Mojarra 2.3.17.SP01 for context '/PatikaSpringFramework-1.0-SNAPSHOT'
+2023-02-01 02:41:13,415 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 25) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 02:41:13,421 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 02:41:13,428 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 25) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 02:41:13,497 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 75ms
+2023-02-01 02:41:13,502 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
+2023-02-01 02:41:13,741 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "PatikaSpringFramework-1.0-SNAPSHOT.war" (runtime-name: "PatikaSpringFramework-1.0-SNAPSHOT.war")
+2023-02-01 02:41:14,003 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment PatikaSpringFramework-1.0-SNAPSHOT.war
+2023-02-01 02:41:14,107 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-01 02:41:14,108 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=PatikaSpringFramework-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@5223427f, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-U8H340H, jaeger.version=Java-1.6.0, ip=192.168.1.110}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-01 02:41:14,244 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 2) Failed to define class com.muharremsilci.patikaspringframework.HelloServlet in Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link com/muharremsilci/patikaspringframework/HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta/servlet/http/HttpServlet
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1091)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@26.1.3.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@3.1.9.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-02-01 02:41:14,247 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from com.muharremsilci.patikaspringframework.HelloServlet because of underlying class loading error: Type Failed to link com.muharremsilci.patikaspringframework.HelloServlet (Module "deployment.PatikaSpringFramework-1.0-SNAPSHOT.war" from Service Module Loader): jakarta.servlet.http.HttpServlet not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-02-01 02:41:14,356 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 25) WFLYUT0021: Registered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' for server 'default-server'
+2023-02-01 02:41:14,357 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "PatikaSpringFramework-1.0-SNAPSHOT.war" was rolled back with the following failure message: undefined
+2023-02-01 02:41:14,358 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 27) WFLYUT0022: Unregistered web context: '/PatikaSpringFramework-1.0-SNAPSHOT' from server 'default-server'
+2023-02-01 02:41:14,395 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment PatikaSpringFramework-1.0-SNAPSHOT.war (runtime-name: PatikaSpringFramework-1.0-SNAPSHOT.war) in 38ms
+2023-02-01 02:41:14,397 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.extension.metrics.registry: Failed to start service
+
